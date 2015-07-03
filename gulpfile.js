@@ -20,7 +20,7 @@ function compile(watch) {
       .pipe(buffer())
       .pipe(sourcemaps.init({ loadMaps: true }))
       .pipe(sourcemaps.write('./'))
-      .pipe(gulp.dest('./build'));
+      .pipe(gulp.dest('./build/js/'));
   }
  
   if (watch) {
@@ -36,7 +36,7 @@ function compile(watch) {
 function watch() {
   return compile(true);
 };
- 
+
 gulp.task('build', function() { return compile(); });
 gulp.task('watch', function() { return watch(); });
  
