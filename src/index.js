@@ -10,6 +10,7 @@ var cube = new Three.Mesh( geometry, material );
 engine.add( cube );
 
 engine.camera.position.z = 5;
+engine.start()
 
 window.engine = engine
 window.cube = cube
