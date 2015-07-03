@@ -1,0 +1,5 @@
+*.swp
+.DS_store
+*.sublime-*
+node_modules
+npm-debug.log

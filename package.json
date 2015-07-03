@@ -1,0 +1,21 @@
+{
+  "name": "es6-babel-boiler",
+  "version": "0.0.1",
+  "description": "ES6 Babelify boilerplate project.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Luke Simkins",
+  "license": "ISC",
+  "dependencies": {
+    "babelify": "^6.1.2",
+    "browserify": "^10.2.4",
+    "gulp": "^3.9.0",
+    "gulp-flatten": "^0.1.0",
+    "gulp-sourcemaps": "^1.5.2",
+    "lodash": "^3.10.0",
+    "vinyl-source-stream": "^1.1.0",
+    "watchify": "^3.2.3"
+  }
+}
